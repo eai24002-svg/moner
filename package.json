@@ -1,0 +1,32 @@
+{
+  "name": "ruwaida-art",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=20.19.0"
+  },
+  "scripts": {
+    "build": "nuxt build",
+    "typecheck": "nuxt typecheck",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "start": "node .output/server/index.mjs",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxtjs/tailwindcss": "^6.14.0",
+    "mysql2": "^3.20.0",
+    "nuxt": "^4.4.2",
+    "vue": "3.5.30",
+    "zod": "^4.3.6"
+  },
+  "overrides": {
+    "vue": "3.5.30"
+  },
+  "devDependencies": {
+    "@vue/language-core": "^3.0.0",
+    "typescript": "^5.9.0",
+    "vue-tsc": "^3.0.0"
+  }
+}
